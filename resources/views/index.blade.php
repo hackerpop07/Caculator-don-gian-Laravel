@@ -1,5 +1,7 @@
 <form method="get">
     @csrf
+    <h1>Caculator</h1>
+    <br>
     <input type="number" name="numberA">
     <input type="number" name="numberB">
     <br>
