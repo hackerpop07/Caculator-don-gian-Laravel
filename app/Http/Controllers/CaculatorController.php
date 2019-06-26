@@ -6,6 +6,11 @@ use Illuminate\Http\Request;
 
 class CaculatorController extends Controller
 {
+    public function index()
+    {
+        return view("index");
+    }
+
     public function caculator(Request $request)
     {
         $numberA = $request->numberA;

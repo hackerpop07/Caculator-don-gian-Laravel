@@ -11,5 +11,5 @@
 |
 */
 
-Route::get('/', 'CaculatorController@caculator')->name("Caculator");
-//Route::get('/subtraction', 'CaculatorController@subtraction')->name("caculator.subtraction");
+Route::get('/', 'CaculatorController@index')->name("Caculator.index");
+Route::post('/', 'CaculatorController@caculator')->name("Caculator");
